@@ -86,6 +86,21 @@
                 </tr>
             </table>
 
+            <br>
+
+            
+            <button onclick="changeText()" style="background-color: aquamarine;">click me to execute javascript
+
+            </button>
+
+            <p id="experimentalText">This text is pre-javascript execution</p>
+
+            <script>
+                function changeText(){
+                    document.getElementById("experimentalText").innerHTML = "wolla! you have changed the text"
+                }
+            </script>
+
         </body>
         
     </html>
