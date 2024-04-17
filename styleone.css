@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+#p1{
+    color: yellow;
+}
+
+#p2{
+    color: chartreuse;
+}
+
+#p3 {
+    color: red;
+}
+
+#p4 {
+    color: cyan;
+}
+
+.intro {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    background-color:gray;
+    color: yellow;
+}
