@@ -1,0 +1,106 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>My first websites</title>
+            <link rel="icon" 
+        </head>
+
+        <body>
+           
+            <a href="https://www.google.com/"
+                target="_blank"
+                title="goes to google">
+                click me
+            </a>
+
+            <br>
+
+            <a href="lyrics.html">
+                song lyrics
+            </a>
+            
+            <br>
+
+            <a href="mailto:test@fake.com">
+                email me
+            </a>
+
+            <br>
+            <br>
+
+            <h3>This is a picture of Luffy in Gear-5</h3>
+            <p>As you can see, he is gleaming with passion for the game he's playing</p>
+            <img src="images/gear5.jpeg" alt="image of luffy" height="150">
+
+            <h3>This is a gif of Luffy in Gear-5</h3>
+            <img src="images/luufy_laugh.gif" alt="gif of luffy" height="150">
+
+
+            <br>
+            <h3>Click to play below audio</h3>
+            <audio controls>
+                <source src="music/sample.mp3">
+            </audio>  
+
+            <h3> Some text formatting </h3>
+
+            <p>This is normal text</p>
+            <p>This is <b>bold</b> text</p>
+            <p>This is <i>itlaic</i> text</p>
+            <p>This is <u>underline</u> text</p>
+            <p>This is <del>deleted</del> text</p>
+            <p>This is <big>big</big> text</p>
+            <p>This is <small>small</small> text</p>
+            <p>This is <sub>subscript</sub> text</p>
+            <p>This is <sup>superscript</sup> text</p>
+            <p>This is <tt>monospaced</tt> text</p>
+            <p>This is <mark>highlighted, css enduced</mark> text</p>
+
+            <br>
+            <h3>Difference b/w span and div</h3>
+
+            <p><span style="background-color:aqua">This is a paragraph with span</span></p>
+            <p><div style="background-color:tomato">This is a paragraph with div</div></p>
+
+            <h3>Store Hours</h3>
+            <h5>Example of a table</h5>
+            <table border="1" style="background-color: black;">
+                <tr align="center" style="background-color: lightblue;">
+                    <th width="100">Sunday</th>
+                    <th width="100">Monday</th>
+                    <th width="100">Tuesday</th>
+                    <th width="100">Wedesday</th>
+                    <th width="100">Thursday</th>
+                    <th width="100">Friday</th>
+                    <th width="100">Saturday</th>
+                </tr>
+
+                <tr align="center" style="background-color: aliceblue;">
+                    <td>Closed</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>10-2</td>
+                </tr>
+            </table>
+
+            <br>
+
+            
+            <button onclick="changeText()" style="background-color: aquamarine;">click me to execute javascript
+
+            </button>
+
+            <p id="experimentalText">This text is pre-javascript execution</p>
+
+            <script>
+                function changeText(){
+                    document.getElementById("experimentalText").innerHTML = "wolla! you have changed the text"
+                }
+            </script>
+
+        </body>
+        
+    </html>
