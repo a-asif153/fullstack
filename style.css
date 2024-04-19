@@ -1,34 +1,24 @@
-body {
-    font-family: sans-serif;
-    font-size: 1em;
-    margin-left: 42px;
-    margin-top: 82px;
-    content: auto;
-    
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    margin-bottom: 50px;
+#btnContainer {
+    text-align: center;
 }
 
-#mysubmit {
-    background-color: #1877f8;
-    width: 90px;
-    height: 30px;
-    font-size: 18px;
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
     color: white;
-    border-radius: 6px;
-    border-color: #1877f8;
+    background-color: #1877f8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
 }
 
-#userInput {
-    margin-left: 12px ;
-    border-radius: 10px;
-    height: 18px;
-}
-
-#label1 {
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+.buttons:hover{
+    background-color: black;
 }
