@@ -1,24 +1,8 @@
 
+const numbers = [1,2,3,4,5,6];
 
-function generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSymbols){
+const squares = numbers.map(function(element){
+    return Math.pow(element, 2)
+})
 
-    const lowercaseChars = "abcdefghijklmopqrstuvwxyz";
-    const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    
-
-    return ``;
-}
-
-const passwordLength = 12;
-const includeLowercase = true;
-const includeUppercase = true;
-const includeNumbers = true;
-const includeSymbols = true;
-
-const password = generatePassword(passwordLength, 
-                                includeLowercase, 
-                                includeUppercase, 
-                                includeNumbers, 
-                                includeSymbols);
-
-console.log(`Generated password: ${password}`);
+console.log(squares);
