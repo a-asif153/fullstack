@@ -1,32 +1,24 @@
-const myCheckBox = document.getElementById(`myCheckBox`);
-const visaBtn = document.getElementById(`visaBtn`);
-const masterCardBtn = document.getElementById(`masterCardBtn`);
-const payPalBtn = document.getElementById(`payPalBtn`);
-const mySubmit = document.getElementById(`mySubmit`);
-const subResult = document.getElementById(`subResult`);
-const paymentResult = document.getElementById(`paymentResult`);
 
-mySubmit.onclick = function(){
-    if(myCheckBox.checked){
-     subResult.textContent = `You are subscribed!`;   
-    }
-    else{
-        subResult.textContent = `You are NOT subscribed!`; 
-    }
 
-    if(visaBtn.checked){
-        paymentResult.textContent = `You are paying with visa`;
-    }
+function generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSymbols){
 
-    else if(masterCardBtn.checked){
-        paymentResult.textContent = `You are paying with master card`;
-    }
+    const lowercaseChars = "abcdefghijklmopqrstuvwxyz";
+    const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    
 
-    else if(payPalBtn.checked){
-        paymentResult.textContent = `You are paying with paypal`;
-    }
-
-    else{
-        paymentResult.textContent = `You must select a payment type`;
-    }
+    return ``;
 }
+
+const passwordLength = 12;
+const includeLowercase = true;
+const includeUppercase = true;
+const includeNumbers = true;
+const includeSymbols = true;
+
+const password = generatePassword(passwordLength, 
+                                includeLowercase, 
+                                includeUppercase, 
+                                includeNumbers, 
+                                includeSymbols);
+
+console.log(`Generated password: ${password}`);
