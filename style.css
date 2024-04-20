@@ -1,0 +1,33 @@
+body {
+    background-color: #e2e2e2;
+}
+
+#myDiv{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    margin-top: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#myDiv2{
+    background-color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+}
+
+.myP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding-top: 4px;    
+}
+
+#myH4 {
+    font-family: Arial, Helvetica, sans-serif;
+     color: red;
+     font-size: 2em;
+}

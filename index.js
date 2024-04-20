@@ -1,8 +1,11 @@
 
-const numbers = [1,2,3,4,5,6];
 
-const squares = numbers.map(function(element){
-    return Math.pow(element, 2)
-})
+const greet = document.getElementById('greet');
+const myAge = document.getElementById('myAge');
+const myMoney = document.getElementById('myMoney');
 
-console.log(squares);
+setTimeout(() => {
+    greet.textContent = `Hello, Ali`;
+    myAge.textContent = `You are 24 yrs old`;
+    myMoney.textContent = `You have $0 in your bank account`;
+}, 2000);
