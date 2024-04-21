@@ -8,21 +8,43 @@
 </head>
 <body>
 
-    <div id='myDiv'>
-        <h1>Net worth arrow function</h1>
+    <h1 id="myH1"><span style="color: hsl(120, 81%, 44%);">TRAVEL</span> <span style="color: #1877f8;">MOTIVATION!</span></h1>
+
+    <div id="myDiv">
+        <img id="myImg1" src="tem_imgs/1.png" width="200px">
+        <img id="myImg1" src="tem_imgs/2.png" width="200px">
+        <img id="myImg1" src="tem_imgs/3.png" width="200px">
+        <img id="myImg1" src="tem_imgs/4.png" width="200px">
+        <img id="myImg1" src="tem_imgs/5.png" width="200px">
+        <img id="myImg1" src="tem_imgs/6.png" width="200px">
     </div>
-    
+
     <div id="myDiv2">
-        <br>
-        <p id="greet" class="myP"></p>
-        <p id="myAge" class="myP"></p>
-        <p id="myMoney" class="myP"></p>
+        <form action="index.php" method="POST" id="myform">
 
-        <h4 id="myH4"> conclusion </h4>
+            <h3>Choose your destination</h3>
 
-        <p id='conclusionP' class="myP"> If you want to travel the world, you have to make more than this!</p><br>
+            <label for="username">username: </label>
+            <input type="username" id="username"><br>
+
+            <label for="email">email: </label>
+            <input type="email" id="email"><br>
+
+            <label for="kilimanjaro">kilimanjaro</label>
+            <input type="radio" id="kilimanjaro" name="radi"><br>
+
+            <label for="maldives">maldives</label>
+            <input type="radio" id="maldives" name="radi"><br>
+
+            <label for="banff">banff national park</label>
+            <input type="radio" id="banff" name="radi"><br><br>
+
+            <button type="submit" id="submitBtn">submit</button>
+
+
+
+        </form>
     </div>
-
      <script src="index.js"></script>
 </body>
 </html>

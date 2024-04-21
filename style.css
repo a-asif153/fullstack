@@ -1,33 +1,32 @@
 body {
-    background-color: #e2e2e2;
-}
-
-#myDiv{
-    
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 8px;
-    margin-top: 18px;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: rgb(0, 14, 44);
 }
 
-#myDiv2{
-    background-color: white;
+#myH1 {
+    margin-top: 36px;
+}
+
+#myDiv {
+    background-color: #dedede;
+    margin: 32px;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+#myform {
+    background-color: #a0cfff;
+    border-radius: 6px;
+    padding: 18px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 8px;
 }
 
-.myP {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-    padding-top: 4px;    
-}
-
-#myH4 {
-    font-family: Arial, Helvetica, sans-serif;
-     color: red;
-     font-size: 2em;
+#submitBtn {
+    background-color: #1877f8;
+    color: white;
+    font-size: 18px;
 }

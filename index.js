@@ -1,11 +1,7 @@
 
 
-const greet = document.getElementById('greet');
-const myAge = document.getElementById('myAge');
-const myMoney = document.getElementById('myMoney');
+ImgsArry = [`tem_imgs/1.png`, `tem_imgs/2.png`, `tem_imgs/3.png`, `tem_imgs/4.png`];
 
-setTimeout(() => {
-    greet.textContent = `Hello, Ali`;
-    myAge.textContent = `You are 24 yrs old`;
-    myMoney.textContent = `You have $0 in your bank account`;
-}, 2000);
+document.getElementById(`myImg1`).innerHTML = `tem_imgs/3.png`;
+
+//ImgsArry.forEach((element) => document.getElementById(`myImg1`).innerHTML = element);
